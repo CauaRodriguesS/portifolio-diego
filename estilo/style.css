@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fontes/Montserrat-VariableFont_wght.ttf);
+}
+
+:root {
+
+    --corfundo: #150D1B;
+    --cormedia: #261A32;
+    --cordestaque: #261435;
+}
+
+body {
+    background-color: #150D1B;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+}
+
+li>a:hover {
+    background-color: #3b1f52;
+    font-size: 1.2em;
+    transition: 0.5s;
+
+}
+
+h1,p {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+img {
+    width: 150px;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 3.5vw;
+    
+}
+
+nav {
+    background-image: linear-gradient(to bottom, #261435, #150D1B);
+    height: 200px;
+}
+
+@media (max-width: 760px) {
+
+    li {
+        display: none;
+    }
+
+    #logo {
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 0.9em;
+
+    }
+
+    .sec {
+        margin-top: 0px;
+        max-width: 200px;
+        text-align: center;
+    }
+
+    .cont {
+        flex-direction: column;
+       justify-content: center;
+
+    }
+
+    .sec>h1 {
+        text-align: center;
+    }
+
+}
+
+@media(min-width:760px) and (max-width:800px) {
+    h1 {
+        font-size: 0.9em;
+
+    }
+
+    .cont {
+        justify-content: center;
+        flex-direction: column;
+        align-items:center;
+        flex-direction:row;
+        flex-wrap:wrap;
+        justify-content:center;
+
+    }
+    .servico{
+        margin: 5px auto;
+    }
+}
+
+main {
+    padding: 10px;
+
+
+}
+
+#links {
+    list-style: none;
+    display: flex;
+}
+
+#logo {
+    display: inline;
+}
+
+#top {
+    justify-content: space-around;
+    line-height: 148px;
+    display: flex;
+}
+
+li {
+    padding: 30px;
+}
+
+.sec {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 1.9em;
+    max-width: 1000px;
+    max-height: 700px;
+}
+
+.cont {
+    display: flex;
+    
+}
+
+.servico {
+    background-color: var(--cordestaque);
+    text-align: center;
+    margin: 5px;
+    max-width: 626px;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.servico>h1 {
+    font-size: 1.2em;
+}
+
+#botao {
+    background-color: #ffffff;
+    color: var(--cordestaque);
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.portifolio{
+    background-color:var(--cordestaque);
+    border-radius:5px;
+    text-align:center;
+    align-items:center;
+    
+}
+.imagem{
+    width:30vh;
+    display:inline-block;
+}
