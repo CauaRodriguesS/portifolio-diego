@@ -212,5 +212,12 @@ h3{
 #text{
     margin: auto;
     text-align: center;
-    width: 50vw;
+    
+}
+#asi{
+    
+}
+#sobre{
+    align-items: center;
+    flex-direction: column;
 }
