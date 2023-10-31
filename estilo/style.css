@@ -27,24 +27,29 @@ a {
     padding: 30px;
     border-radius: 10px;
     font-family: "Montserrat", sans-serif;
-    transition: 0.5s; 
-    
-}
-#botaoportifolio{
-    cursor: pointer;
+    transition: 0.5s;
+
 }
 
+#botaoportifolio {
+    cursor: pointer;
+}
+#logo{
+    
+}
 li>a:hover {
     background-color: #3b1f52;
     font-size: 1.1em;
 
 }
-.links:hover a:not(:hover){
-font-size: 0.5em;
+
+.links:hover a:not(:hover) {
+    font-size: 0.5em;
 
 }
 
-h1,p {
+h1,
+p {
     font-family: 'Montserrat', sans-serif;
 
 }
@@ -56,12 +61,12 @@ img {
 h1 {
     font-style: italic;
     font-size: 3.5vw;
-    
+
 }
 
 nav {
     background-image: linear-gradient(to bottom, #261435, #150D1B);
-    height: 200px;
+    height: 132px;
 }
 
 @media (max-width: 760px) {
@@ -87,7 +92,7 @@ nav {
 
     .cont {
         flex-direction: column;
-       justify-content: center;
+        justify-content: center;
 
     }
 
@@ -102,20 +107,22 @@ nav {
         font-size: 0.9em;
 
     }
-#logo{
-    display: none;
-}
-    
+
+    #logo {
+        display: none;
+    }
+
     .cont {
         justify-content: center;
         flex-direction: column;
-        align-items:center;
-        flex-direction:row;
-        flex-wrap:wrap;
-        justify-content:center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
 
     }
-    .card{
+
+    .card {
         margin: 5px auto;
     }
 }
@@ -133,13 +140,12 @@ main {
 
 #top {
     justify-content: space-around;
-    line-height: 148px;
+    line-height: 100px;
     display: flex;
+    
 }
 
-li {
-    padding: 30px;
-}
+
 
 .sec {
     margin-top: 10px;
@@ -155,7 +161,7 @@ li {
     justify-content: center
 }
 
-.card{
+.card {
     background-color: var(--cordestaque);
     text-align: center;
     margin: 5px;
@@ -179,48 +185,56 @@ li {
     display: block;
     margin: auto;
 }
-#orcamento{
+
+#orcamento {
 
     margin: auto;
 }
-.portifolio{
-    background-color:var(--cordestaque);
-    border-radius:5px;
-    text-align:center;
-    align-items:center;
+
+.portifolio {
+    background-color: var(--cordestaque);
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
     padding: 9px;
     margin: 5px;
-    
-    
+
+
 }
-.imagem{
-    width:30vh;
+
+.imagem {
+    width: 30vh;
     margin-top: 3px;
-  
+
 }
-h3{
+
+h3 {
     font-family: Montserrat;
 }
-#vertical{
+
+#vertical {
     height: 40vh;
-} 
-.titulo{
+}
+
+.titulo {
     margin-top: 170px;
     text-align: center;
     font-size: 40px;
 }
-#text{
+
+#text {
     margin: auto;
     text-align: center;
-    
+
 }
-#asi{
-    
-}
-#sobre{
+
+#asi {}
+
+#sobre {
     align-items: center;
     flex-direction: column;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
