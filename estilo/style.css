@@ -34,9 +34,12 @@ a {
 #botaoportifolio {
     cursor: pointer;
 }
-#logo{
-    
+
+#logo {
+    height: 120px;
+    width: 120px;
 }
+
 li>a:hover {
     background-color: #3b1f52;
     font-size: 1.1em;
@@ -66,7 +69,9 @@ h1 {
 
 nav {
     background-image: linear-gradient(to bottom, #261435, #150D1B);
-    height: 132px;
+    height: 100px;
+    position: fixed;
+    width: 100%;
 }
 
 @media (max-width: 760px) {
@@ -95,11 +100,14 @@ nav {
         justify-content: center;
 
     }
+   
 
     .sec>h1 {
         text-align: center;
     }
-
+    nav{
+        position: relative;
+    }
 }
 
 @media(min-width:760px) and (max-width:970px) {
@@ -129,7 +137,7 @@ nav {
 
 main {
     padding: 10px;
-
+padding-top:136px ;
 
 }
 
@@ -142,7 +150,7 @@ main {
     justify-content: space-around;
     line-height: 100px;
     display: flex;
-    
+
 }
 
 
