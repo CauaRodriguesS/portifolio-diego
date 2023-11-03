@@ -34,6 +34,9 @@ a {
 #botaoportifolio {
     cursor: pointer;
 }
+.espaco{
+    height: 150px;
+}
 
 #logo {
     height: 120px;
@@ -69,11 +72,18 @@ h1 {
 
 nav {
     background-image: linear-gradient(to bottom, #261435, #150D1B);
+    background-color: black;
     height: 100px;
     position: fixed;
     width: 100%;
 }
-
+nav.rolagem{
+    background-color: white;
+}
+main{
+    padding: 150px 10px 10px 10px;
+}
+/*celulares*/
 @media (max-width: 760px) {
 
     li {
@@ -94,9 +104,6 @@ nav {
 
     }
         
-    
-
-
     .sec {
         margin-top: 0px;
         max-width: 200px;
@@ -108,7 +115,9 @@ nav {
         justify-content: center;
 
     }
-   
+    .espaco{
+        display: none;
+    }
 
     .sec>h1 {
         text-align: center;
@@ -117,7 +126,7 @@ nav {
         position: relative;
     }
 }
-
+/*tablets*/
 @media(min-width:760px) and (max-width:970px) {
     section h1 {
         font-size: 0.9em;
@@ -127,7 +136,13 @@ nav {
     #logo {
         display: none;
     }
-
+    .espaco{
+        height: 120px;
+        width: 100%;
+    }
+    main{
+        padding-top: 100px ;
+    }
     .cont {
         justify-content: center;
         flex-direction: column;
@@ -232,7 +247,7 @@ h3 {
 }
 
 .titulo {
-    margin-top: 170px;
+
     text-align: center;
     font-size: 40px;
 }
@@ -243,11 +258,10 @@ h3 {
 
 }
 
-#asi {}
 
-#sobre {
+#secsobre {
     align-items: center;
-    flex-direction: column;
+    
 }
 
 html {
