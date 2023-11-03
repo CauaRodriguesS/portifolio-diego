@@ -79,7 +79,7 @@ nav {
     li {
         display: none;
     }
-
+    
     #logo {
         margin: auto;
     }
@@ -88,6 +88,14 @@ nav {
         font-size: 0.9em;
 
     }
+    
+    main {
+            padding: 10px 10px 10px 10px;
+
+    }
+        
+    
+
 
     .sec {
         margin-top: 0px;
@@ -135,11 +143,10 @@ nav {
     }
 }
 
-main {
-    padding: 10px;
-padding-top:136px ;
 
-}
+   
+    
+
 
 #links {
     list-style: none;
