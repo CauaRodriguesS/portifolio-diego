@@ -24,7 +24,7 @@ body {
 a {
     color: white;
     text-decoration: none;
-    padding: 30px;
+    padding: 10px;
     border-radius: 10px;
     font-family: "Montserrat", sans-serif;
     transition: 0.5s;
@@ -39,8 +39,13 @@ a {
 }
 
 #logo {
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
+    display: block;
+    
+}
+li{
+    height: 50px;
 }
 
 li>a:hover {
@@ -70,15 +75,13 @@ h1 {
 
 }
 
+
 nav {
-    background-image: linear-gradient(to bottom, #261435, #150D1B);
-    background-color: black;
-    height: 100px;
+     background-color:#270e3a;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.137);
+    height: 70px;
     position: fixed;
     width: 100%;
-}
-nav.rolagem{
-    background-color: white;
 }
 main{
     padding: 150px 10px 10px 10px;
@@ -166,6 +169,7 @@ main{
 #links {
     list-style: none;
     display: flex;
+    gap: 20px;
 }
 
 #top {
