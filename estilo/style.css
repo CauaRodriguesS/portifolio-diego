@@ -41,7 +41,7 @@ a {
 #logo {
     height: 100px;
     width: 100px;
-    display: block;
+    
     
 }
 li{
@@ -79,7 +79,7 @@ h1 {
 nav {
      background-color:#270e3a;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.137);
-    height: 70px;
+    height: 100px;
     position: fixed;
     width: 100%;
 }
