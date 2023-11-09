@@ -7,6 +7,7 @@ window.addEventListener("scroll",function(){
         nav.style.backgroundColor = "#1a191bbe"
         nav.style.backgroundImage = ""
     }else{
+        alert("foi")
         nav.style.backgroundColor= ""
         nav.style.backgroundImage = "linear-gradient = (to bottom, #261435, #150D1B)"
     }
